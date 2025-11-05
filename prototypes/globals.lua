@@ -5,6 +5,7 @@
 
 local M = {}
 
+
 --  Example list of ores to create. Add more entries following this template.
 --  Fields used by the builders:
 --  name            = internal prototype name for the resource entity
@@ -34,6 +35,46 @@ M.ore_definitions = {
 		map_color = { r = 1.0, g = 0.5, b = 0.0 },
 		stage_counts = {15000, 8000, 4000, 2000, 1000, 500, 250, 100},
 	},
+	{
+		name = "",
+		item = "",
+		localized_name = {"item-name."},
+		icon = "__realistic_production_ore__/graphics/icons/__.png",
+		mining_time = 0.8,
+		map_color = { r = 0.1, g = 0.1, b = 0.1 },
+		stage_counts = {20000, 10000, 5000, 2500, 1250, 600, 300, 150},
+	},
+	{
+		name = "",
+		item = "",
+		localized_name = {"item-name."},
+		icon = "__realistic_production_ore__/graphics/icons/__.png",
+		mining_time = 0.8,
+		map_color = { r = 0.1, g = 0.1, b = 0.1 },
+		stage_counts = {20000, 10000, 5000, 2500, 1250, 600, 300, 150},
+	},
+	{
+		name = "",
+		item = "",
+		localized_name = {"item-name."},
+		icon = "__realistic_production_ore__/graphics/icons/__.png",
+		mining_time = 0.8,
+		map_color = { r = 0.1, g = 0.1, b = 0.1 },
+		stage_counts = {20000, 10000, 5000, 2500, 1250, 600, 300, 150},
+	},
+	{
+		name = "",
+		item = "",
+		localized_name = {"item-name."},
+		icon = "__realistic_production_ore__/graphics/icons/__.png",
+		mining_time = 0.8,
+		map_color = { r = 0.1, g = 0.1, b = 0.1 },
+		stage_counts = {20000, 10000, 5000, 2500, 1250, 600, 300, 150},
+	},
+}
+
+M.gas_definitions = {
+	-- Add gas definitions here if needed in the future
 }
 
 return M
