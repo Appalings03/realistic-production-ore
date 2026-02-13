@@ -169,10 +169,46 @@ local radioactive_zone = {
     { name = "radium",       symbol = "Ra", atomic = 88 }
 }
 
+
+-- Missing elements
 local gas_elements = {
 	{name = "hydrogen", symbol = "H", atomic = 1},
+	{ name = "helium",    symbol = "He", atomic = 2 },
+    { name = "fluorine",  symbol = "F",  atomic = 9 },
+    { name = "radon",     symbol = "Rn", atomic = 86 }
+}
+
+local alkaline = {
+    { name = "beryllium", symbol = "Be", atomic = 4 },
+    { name = "vanadium",  symbol = "V",  atomic = 23 },
+    { name = "niobium",   symbol = "Nb", atomic = 41 },
+    { name = "tantalum",  symbol = "Ta", atomic = 73 },
+    { name = "hafnium",   symbol = "Hf", atomic = 72 },
+    { name = "zirconium", symbol = "Zr", atomic = 40 }
+}
+
+local lanthanides = {
+    { name = "praseodymium", symbol = "Pr", atomic = 59 },
+    { name = "samarium",      symbol = "Sm", atomic = 62 },
+    { name = "europium",      symbol = "Eu", atomic = 63 },
+    { name = "gadolinium",    symbol = "Gd", atomic = 64 },
+    { name = "terbium",       symbol = "Tb", atomic = 65 },
+    { name = "dysprosium",    symbol = "Dy", atomic = 66 },
+    { name = "holmium",       symbol = "Ho", atomic = 67 },
+    { name = "erbium",        symbol = "Er", atomic = 68 },
+    { name = "thulium",       symbol = "Tm", atomic = 69 },
+    { name = "ytterbium",     symbol = "Yb", atomic = 70 },
+    { name = "lutetium",      symbol = "Lu", atomic = 71 }
+}
+
+local metalloids = {
+    { name = "germanium", symbol = "Ge", atomic = 32 },
+    { name = "arsenic",   symbol = "As", atomic = 33 },
+    { name = "selenium",  symbol = "Se", atomic = 34 },
+    { name = "tellurium", symbol = "Te", atomic = 52 },
+    { name = "bismuth",   symbol = "Bi", atomic = 83 }
 }
 
 return {geological_sources, artificial_elements,
 	   crustal_rock_deposit, igneous_intrusion, mantle_pipe, hydrothermal_vein,
-	   evaporite_basin, brine_reservoir, atmospheric_field, impact_structure, radioactive_zone, gas_elements}
+	   evaporite_basin, brine_reservoir, atmospheric_field, impact_structure, radioactive_zone, gas_elements,metalloids, alkaline, lanthanides}
