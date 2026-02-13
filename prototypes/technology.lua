@@ -1,4 +1,4 @@
--- recipe.lua
+-- technology.lua
 
 -- Function to generates the item prototypes based on the global definitions
 -- @param globals : 
@@ -15,3 +15,4 @@
 --   impact_structure,
 --   radioactive_zone
 -- }
+

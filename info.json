@@ -8,7 +8,8 @@
     "homepage": "",
     "description": "Graphics and sounds for Realistic Production",
     "dependencies": [
-        "base >= 2.0.69"
+        "base >= 2.0.69",
+        "realistic_production_assets >= 0.0.1"
     ],
     "package": {
         "ignore": [],
