@@ -1,15 +1,16 @@
 {
     "name": "realistic_production_ore",
     "version": "0.0.1",
-    "factorio_version": "2.0",
-    "title": "Realistic Production Graphics",
+    "factorio_version": "2.1",
+    "title": "Realistic Production Ore",
     "author": "Appalings03",
     "contact": "",
     "homepage": "",
-    "description": "Graphics and sounds for Realistic Production",
+    "description": "Ores for Realistic Production",
     "dependencies": [
-        "base >= 2.0.69",
-        "realistic_production_assets >= 0.0.1"
+        "base >= 2.1",
+        "realistic_production_assets >= 0.0.1",
+        "realistic_production_utils >= 0.0.1"
     ],
     "package": {
         "ignore": [],
