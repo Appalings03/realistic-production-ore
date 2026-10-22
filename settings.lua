@@ -1,3 +1,13 @@
+local dev_assets = {
+    type = "bool-setting",
+    name = "Dev assets",
+    setting_type = "startup", -- Choose: "startup", "runtime-global", or "runtime-per-user"
+    default_value = true,
+    per_user = false,
+    localised_name = "Enable Dev Assets",
+    localised_description = "Turns the development assets on or off."
+}
+
 local pure_node = {
     type = "bool-setting",
     name = "Allow pure ore nodes",
@@ -15,7 +25,7 @@ local ore_density = {
     order = "b"
 }
 
-data:extend({pure_node, ore_density})
+data:extend({pure_node, ore_density, dev_assets})
 -- example of startup setting
 -- {
 --    type = "bool-setting",
