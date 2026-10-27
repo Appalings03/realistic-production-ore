@@ -6,11 +6,11 @@ local dev_assets = {
     order = "a"
 }
 
-local pure_node = {
+local mixed_ore_patches = {
     type = "bool-setting",
-    name = "rp-pure-ore-nodes",
+    name = "rp-mixed-ore-patches",
     setting_type = "startup",
-    default_value = false,
+    default_value = true,
     order = "b"
 }
 
@@ -24,4 +24,4 @@ local ore_density = {
     order = "c"
 }
 
-data:extend({dev_assets, pure_node, ore_density})
+data:extend({dev_assets, mixed_ore_patches, ore_density})
